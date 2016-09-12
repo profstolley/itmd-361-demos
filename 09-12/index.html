@@ -4,6 +4,12 @@
     <title>Responsive Images in HTML</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <style>
+      img {
+        display: block;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -12,6 +18,15 @@
     <main>
       <article>
         <h2>Hank the Dog at Nap Time</h2>
+        <figure>
+          <img src="/img/hank-original.jpg" alt="Photo of Hank on the couch." />
+          <figcaption>
+            <p>
+              Hank looking sleep on the couch right around
+              his afternoon nap.
+            </p>
+          </figcaption>
+        </figure>
       </article>
     </main>
     <footer>
