@@ -49,46 +49,4 @@ table {
 
 
 
-html {
-  background-color: black;
-  color: yellow;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  background-color: red;
-}
-
-figure {
-  border: 10px solid blue;
-}
-.photo {
-  border: 10px solid yellow;
-}
-
-#footer {
-  color: purple;
-}
-
-
-
-
-img,video,audio {
-  max-width: 100%;
-  display: block;
-}
-
-
-
-html {
-  color: white;
-}
-
-
-
-
-
-
-
-
 
