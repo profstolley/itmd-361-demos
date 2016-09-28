@@ -17,7 +17,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px = 1 gridline*/
+  background-color: #EFE5BE;
+  color: #222;
+  padding: 1.222em 0.916em; /* 16.5px */
 }
+
+
 
 h1 {
   font-size: 1.728em; /* 31.104px */
