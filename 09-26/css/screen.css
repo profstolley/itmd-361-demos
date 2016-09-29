@@ -41,3 +41,9 @@ li {
 li:last-child {
   padding-bottom: 0;
 }
+
+/* ===== MODULAR STYLES ===== */
+
+.content ul {
+  list-style-type: disc;
+}
