@@ -71,12 +71,14 @@ li:last-child {
   }
   #primary {
     width: 54%; /* 378px @ 700px */
+    float: left;
   }
   #secondary {
     width: 39.71428571%; /* 278px @ 700px */
-    position: absolute;
-    top: 0;
-    left: 57.14285714%;
+    float: right;
+  }
+  footer {
+    clear: both;
   }
 }
 
