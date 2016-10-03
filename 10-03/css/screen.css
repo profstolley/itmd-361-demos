@@ -62,6 +62,18 @@ li:last-child {
     margin: 0 25.42857143% 0 14.28571429%;
   }
 }
-
+@media screen and (min-width: 990px) {
+  #page {
+    margin: 0;
+  }
+  #primary {
+    width: 54%; /* 378px @ 700px */
+    float: left;
+  }
+  #secondary {
+    width: 39.71428571%; /* 278px @ 700px */
+    float: right;
+  }
+}
 
 
