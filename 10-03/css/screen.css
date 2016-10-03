@@ -66,13 +66,17 @@ li:last-child {
   #page {
     margin: 0;
   }
+  .content {
+    position: relative;
+  }
   #primary {
     width: 54%; /* 378px @ 700px */
-    float: left;
   }
   #secondary {
     width: 39.71428571%; /* 278px @ 700px */
-    float: right;
+    position: absolute;
+    top: 0;
+    left: 57.14285714%;
   }
 }
 
