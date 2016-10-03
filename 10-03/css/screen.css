@@ -19,10 +19,7 @@ html {
   line-height: 1.222em; /* 22px = 1 gridline*/
   background-color: #EFE5BE;
   color: #222;
-  padding: 1.222em 0.916em; /* 16.5px */
 }
-
-
 
 h1 {
   font-size: 1.728em; /* 31.104px */
@@ -42,17 +39,29 @@ li:last-child {
   padding-bottom: 0;
 }
 
+/* ===== LAYOUT STYLES ===== */
+
+#page {
+  padding: 1.222em 0.916em; /* 16.5px */
+}
+
 /* ===== MODULAR STYLES ===== */
 
 .content ul {
   list-style-type: disc;
 }
-
+#secondary {
+  color: #EFE5BE;
+  background-color: #222;
+}
 /* ===== STATE STYLES ===== */
 
-/* 545px @ 16px/em */
-@media screen and (min-width: 34.0625em) {
-  .content {
-    margin: 0 18.75% 0 25%;
+/* 775 @ 16px/em */
+@media screen and (min-width: 48.4375em) {
+  #page {
+    margin: 0 25.42857143% 0 14.28571429%;
   }
 }
+
+
+
