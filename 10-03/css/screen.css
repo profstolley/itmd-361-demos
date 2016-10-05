@@ -9,8 +9,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a minor third modular scale
-  http://www.modularscale.com/?18&px&1.2&web&text
+  Setting type to a minor seventh (16:9) modular scale
+  http://www.modularscale.com/?18&px&1.778&web&text
 */
 
 
@@ -22,8 +22,8 @@ html {
 }
 
 h1 {
-  font-size: 1.728em; /* 31.104px */
-  line-height: 1.415em; /* 44px @ 31.104px em */
+  font-size: 1.778em; /* 32.004px */
+  line-height: 1.375em; /* 44px @ 56.903px em */
 }
 
 p,
@@ -42,7 +42,7 @@ li:last-child {
 /* ===== LAYOUT STYLES ===== */
 
 #page {
-  padding: 1.222em 0.916em; /* 16.5px */
+  padding: 1.222em;
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -55,6 +55,15 @@ li:last-child {
   background-color: #222;
 }
 /* ===== STATE STYLES ===== */
+
+/* 500 @ 16px/em */
+@media screen and (min-width: 31.25em) {
+  h1 {
+    font-size: 3.161em; /* 56.903px */
+    line-height: 1.16em; /* 66px @ 56.903px em */
+  }
+}
+
 
 /* 775 @ 16px/em */
 @media screen and (min-width: 48.4375em) {
