@@ -77,30 +77,25 @@ img {
 
 /* ===== STATE STYLES ===== */
 
-/* 500 @ 16px/em */
-@media screen and (min-width: 31.25em) {
+/* 460 @ 16px/em */
+@media screen and (min-width: 28.75em) {
   h1 {
     font-size: 3.161em; /* 56.903px */
     line-height: 1.16em; /* 66px @ 56.903px em */
   }
-}
-
-/* 625 @ 16px/em */
-@media screen and (min-width: 39.063em) {
   #page {
-    padding-left: 6.1711%; /* 44px / 713px */
-    padding-right: 6.1711%;
+
   }
-  #primary {
-    background-color: red;
-  }
+
   .spotphoto {
-    margin-left: -7.04%; /* 44px / 625px (width of Hank photo)*/
-    margin-right: -7.04%;
+
   }
   .spotphoto figcaption {
-    width: 31.978%; /* 228px / 2 gridlines @ 713px */
-    position: relative;
-    right: 0;
+
   }
+}
+
+/* 775 @ 16px/em */
+@media screen and (min-width: 48.438em) {
+
 }
