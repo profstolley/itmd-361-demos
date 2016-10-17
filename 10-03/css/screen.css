@@ -106,6 +106,39 @@ img {
 
 /* ===== STATE STYLES ===== */
 
+.flexbox #page {
+  padding-top: 0;
+}
+.flexbox #header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.667em; /* 66px (button + gridline) / 18px = 3.667 */
+  padding-top: 0;
+}
+.flexbox h1 {
+  order: 2;
+}
+.flexbox #navigation {
+  order: 1;
+  position: static;
+}
+.flexbox .navigation {
+  display: flex;
+  line-height: 1;
+}
+.flexbox .navigation li,
+.flexbox .navigation li:last-child {
+  display: block;
+  flex-grow: 1;
+}
+.flexbox .navigation li a {
+  padding: 1.222em;
+  padding-top: 0.722em; /* 13px / 18px = 722em (13 + 18 + 13 = 44) */
+  padding-bottom: 0.722em;
+}
+
+
+
 /* 460 @ 16px/em */
 @media screen and (min-width: 28.75em) {
   h1 {
