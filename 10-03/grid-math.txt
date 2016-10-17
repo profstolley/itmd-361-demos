@@ -1,0 +1,43 @@
+Baseline grid: 22px
+Modular scale: 16:9 -> 1.778 (minor seventh)
+
+Derive column size from 22px gutter up the modular scale:
+
+ 22.000 -> 22
+ 39.116 -> 39
+ 69.548 -> 70
+132.657 -> 133
+219.862 -> 220
+
+5-column grid (25 columns, collapsed)
+ 11px margin
+ 22px gutter
+ 70px column
+460px viewport
+
+11 |  70  | 22 |  70  | 22 |  70  | 22 |  70  | 22 |  70  | 11
+
+Widths:       Offset:    Offset + Margin (11):
+1 col:  70    92         103
+2 col: 162    184        195
+3 col: 254    276        287
+4 col: 346    368        379
+5 col: 438    -          -
++ mar: 460
+
+
+5-column grid (25 columns, collapsed)
+ 11px margin
+ 22px gutter
+133px column
+775px viewport
+
+11 |  133  | 22 |  133  | 22 |  133  | 22 |  133  | 22 |  133  | 11
+
+Widths:       Offset:    Offset + Margin (11):
+1 col: 133    155        166
+2 col: 288    310        321
+3 col: 443    465        476
+4 col: 598    620        631
+5 col: 753    -          -
++ mar: 775
