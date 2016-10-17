@@ -49,6 +49,31 @@ img {
 #page {
   padding: 1.222em;
 }
+#header {
+  padding-top: 3.667em; /* 66px (button + gridline) / 18px = 3.667 */
+}
+#navigation {
+  position: absolute;
+  top: 0;
+}
+.navigation li,
+.navigation li:last-child {
+  display: inline-block;
+  padding: 0;
+}
+.navigation {
+  line-height: 1;
+  padding: 0;
+}
+.navigation li a {
+  display: block;
+  background-color: #222;
+  color: #EFE5BE;
+  text-decoration: none;
+  padding: 1.222em;
+  padding-top: 0.722em; /* 13px / 18px = 722em (13 + 18 + 13 = 44) */
+  padding-bottom: 0.722em;
+}
 .spotphoto {
   margin-left: -1.222em; /* Run spot photo full bleed */
   margin-right: -1.222em;
