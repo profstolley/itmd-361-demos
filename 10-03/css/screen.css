@@ -63,6 +63,9 @@ img {
   list-style-type: disc;
   padding-left: .666em; /* Align bullets to the grid */
 }
+.spotphoto {
+  margin-bottom: 1.222em; /* 1 gridline of space */
+}
 .spotphoto figcaption,
 #secondary {
   color: #EFE5BE;
@@ -104,6 +107,21 @@ img {
     padding-left: 1.419354839%; /* 11px margin / 775px viewport = 0.01419354839 */
     padding-right: 1.419354839%;
   }
+  #primary {
+    float: left;
+    width: 58.8313413%; /* 3 columns :: 443px /753px grid = 0.588313413; */
+  }
+  #secondary {
+    box-sizing: border-box;
+    width: 38.24701195%; /* 2 columns :: 288px / 753px grid = 0.3824701195 */
+    padding-top: 1.222em; /* One gridline */
+    padding-left: 1.460823373%; /* 11px / 753px grid = 0.01460823373 */
+    padding-right: 1.460823373%;
+    margin-left: 61.75298805%; /* 3-column offset :: 465px / 753px grid = 0.6175298805 */
+  }
+  #footer {
+    clear: both;
+  }
   .spotphoto {
     margin-left: -1.460823373%; /* -11px / 753px grid = -0.01460823373 */
     margin-right: -1.460823373%;
@@ -111,5 +129,8 @@ img {
   .spotphoto figcaption {
     padding-left: 1.460823373%; /* 11px / 753px grid = -0.01460823373 */
     padding-right: 1.460823373%;
+    width: 35.32536521%; /* 2 columns - 22px padding :: 266px / 753px grid = 0.3532536521 */
+    /*margin-left: 61.75298805%*/ /* 3-column offset :: 465px / 753px grid = 0.6175298805 */
+    padding-left: 63.21381142%; /* 3-column offset + margin :: 476px / 753px grid = 0.6321381142 */
   }
 }
