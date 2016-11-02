@@ -13,18 +13,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?1&em&1.667&web&text
 */
 
-
 html {
   font-size: 1.125em; /* 18px */
   line-height: 1.222em; /* 22px = 1 gridline*/
+  padding-left: 6.6%; /* 33px / 500px 6.6%; */
+  padding-right: 6.6%; /* 33px / 500px = 6.6%; */
 }
 
 h1 {
-
+  font-size: 2.77em; /* 50.02px / 18px = 2.77em */
+  line-height: 1.1em; /* 55px / 50.02px = 1.1em*/
 }
 
 h2 {
-
+  font-size: 1.667em; /* 30.006px / 18 */
+  line-height: 1.466em; /* 44 / 30.006 = 1.466 */
 }
 
 h3 {
@@ -33,7 +36,7 @@ h3 {
 
 p,
 ul {
-
+  padding-bottom: 1.222em;
 }
 
 li {
@@ -48,3 +51,19 @@ li {
 
 /* ===== STATE STYLES ===== */
 
+/* 5:3 */
+/*
+5 + 3 = 8
+500/8 = 62.5
+5 * 62.5 = 312.5
+3 * 62.5 = 187.5
+*/
+  html { padding: 0; }
+  #primary {
+    float: left;
+    width: 62.5%; /* 312.5 / 500 = 62.5% */
+  }
+  #secondary {
+    width: 37.5%; /* 187.5px / 500 = 37.5 */
+    margin-left: 66.7%; /* 333.5px / 500 = 66.7% */
+  }
