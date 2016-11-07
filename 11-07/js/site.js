@@ -24,13 +24,12 @@ function textSize(n) {
   var sizes = ['smallest', 'smaller', 'normal', 'larger', 'largest'];
   if (typeof(i) === 'undefined') {
     i = 2; // start with 'normal'
-  } else {
-    i = i + n; // increase or decrease
-    if (i >= sizes.length) {
-      i = sizes.length - 1; // stay within the array's values
-    } else if (i < 0) {
-      i = 0; // stay within the array's values
-    }
+  }
+  i = i + n; // increase or decrease
+  if (i >= sizes.length) {
+    i = sizes.length - 1; // stay within the array's values
+  } else if (i < 0) {
+    i = 0; // stay within the array's values
   }
   console.log(i);
   return sizes[i];
