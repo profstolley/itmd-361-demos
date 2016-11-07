@@ -17,6 +17,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18px / 16px */
   line-height: 1.222em; /* 22px / 18px */
+  transition: font-size 1s;
 }
 
 h1 {
@@ -26,6 +27,14 @@ h1 {
 h2 {
   font-size: 1.667em; /* 30.006 / 18px */
   line-height: 1.466em; /* 44px / 30.006 (2 gridlines) */
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+a[href^=http] {
+  color: red;
 }
 
 img {
