@@ -3,6 +3,7 @@ $.noConflict();
 // Instead, use a self-invoking function to have a private
 // dollar sign
 (function($){
+  var i;
   $(document).ready(
     function() {
       $('html').removeClass('nojs');
@@ -29,9 +30,6 @@ $.noConflict();
 
     }
   );
-
-  // Function to adjust text sizes
-  var i;
   function textSize(n) {
     var sizes = ['smallest', 'smaller', 'normal', 'larger', 'largest'];
     if (typeof(i) === 'undefined') {
@@ -46,5 +44,4 @@ $.noConflict();
     console.log(i);
     return sizes[i];
   }
-
 })(jQuery);
