@@ -42,6 +42,11 @@ img {
   max-width: 100%;
 }
 
+label,
+input {
+  display: block;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 
